@@ -2,11 +2,10 @@ import Colaborador from "./Colaborador";
 
 export default class QuadroColaboradores {
     private _colaboradores: Colaborador[];
-    protected salarioBase: number;
 
-    constructor(salarioBase: number = 1000) {
+
+    constructor() {
         this._colaboradores = [];
-        this.salarioBase = salarioBase;
     }
 
     contratarColaborador(colaborador: Colaborador) {
@@ -21,6 +20,7 @@ export default class QuadroColaboradores {
         return this._colaboradores;
     }
 }
+
 
 
 
