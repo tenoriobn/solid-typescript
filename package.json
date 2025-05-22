@@ -14,6 +14,7 @@
       "tarefa-3":"npx tsc tarefa-3/main.ts --outDir tarefa-3/dist && node tarefa-3/dist/main.js",
       "desafio-3":"npx tsc tarefa-3/desafio/cozinheiro.ts --outDir tarefa-3/dist/desafio && node tarefa-3/dist/desafio/cozinheiro.js",
       "tarefa-4":"npx tsc tarefa-4/main.ts --outDir tarefa-4/dist && node tarefa-4/dist/main.js",
+      "desafio-4":"npx tsc tarefa-4/desafio/cozinheiros.ts --outDir tarefa-4/dist/desafio && node tarefa-4/dist/desafio/cozinheiros.js",
       "tarefa-5":"npx tsc tarefa-5/main.ts --outDir tarefa-5/dist && node tarefa-5/dist/main.js"
     },
     "dependencies": {
